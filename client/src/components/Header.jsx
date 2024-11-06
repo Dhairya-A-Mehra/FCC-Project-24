@@ -11,6 +11,7 @@ const Header = () => {
   const dispatch = useDispatch();
   const { currentUser } = useSelector((state) => state.user);
   const { theme } = useSelector((state) => state.theme);
+  
   return (
     <Navbar className="border-b-2">
       <Link
@@ -47,7 +48,7 @@ const Header = () => {
             arrowIcon={false}
             inline
             label={
-              <Avatar alt="user" img={currentUser.profilePicture} rounded />
+              <Avatar img={currentUser.profilePicture} rounded />
             }
           >
             <Dropdown.Header>
