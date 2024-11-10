@@ -29,7 +29,7 @@ const About = () => {
             <a href='https://aaryapatil.vercel.app/' className='text-teal-500 hover:underline'>
               Aarya's Portfolio
             </a>, and{' '}
-            <a href='https://devvratsaini.vercel.app/' className='text-teal-500 hover:underline'>
+            <a href='https://sainidevvrat.vercel.app/' className='text-teal-500 hover:underline'>
               Devvrat's Portfolio
             </a>.
           </p>
