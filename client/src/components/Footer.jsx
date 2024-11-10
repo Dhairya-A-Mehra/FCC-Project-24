@@ -14,9 +14,6 @@ export default function FooterCom() {
                         <div>
                         <Footer.Title title="About US" />
                         <Footer.LinkGroup col>
-                            <Footer.Link>
-                                Ayushi Kapgate
-                            </Footer.Link>
                             <Footer.Link
                             href="https://kewalnanavati.vercel.app/"
                             target="_blank"
@@ -25,17 +22,32 @@ export default function FooterCom() {
                                 Kewal Nanavati
                             </Footer.Link>
                             <Footer.Link
+                            href="https://ayushikapgate.vercel.app/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >
+                                Ayushi Kapgate
+                            </Footer.Link>
+                            <Footer.Link
                             href="https://dhairyaamehra.vercel.app/"
                             target="_blank"
                             rel="noopener noreferrer"
                             >
                                 Dhairya Mehra
                             </Footer.Link>
-                            <Footer.Link>
-                                Aarya Patil
-                            </Footer.Link>
-                            <Footer.Link>
+                            <Footer.Link
+                            href="https://sainidevvrat.vercel.app/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >
                                 Devvrat Saini
+                            </Footer.Link>
+                            <Footer.Link
+                            href="https://my-portfolio-7zfp.vercel.app/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >
+                                Aarya Patil
                             </Footer.Link>
                         </Footer.LinkGroup>
                         </div>
