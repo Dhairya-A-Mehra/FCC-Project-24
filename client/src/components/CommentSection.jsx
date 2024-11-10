@@ -10,7 +10,6 @@ export default function CommentSection({ postId }) {
   const [commentError, setCommentError] = useState(null);
   const [comments, setComments] = useState([]);
   const navigate = useNavigate();
-  console.log(comments);
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (comment.length > 200) {
