@@ -45,7 +45,7 @@ export default function CreatePost() {
     setIsGenerating(true);
     setPublishError(null);
     try {
-      const response = await fetch('http://localhost:3000/api/generate/generate-content', {
+      const response = await fetch('/api/generate/generate-content', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
