@@ -25,7 +25,7 @@ export default function FooterCom() {
                                 Kewal Nanavati
                             </Footer.Link>
                             <Footer.Link
-                            href="https://dhairya-a-mehra.github.io/GDSC/"
+                            href="https://dhairyaamehra.vercel.app/"
                             target="_blank"
                             rel="noopener noreferrer"
                             >
