@@ -131,11 +131,7 @@ export default function CreatePost() {
             {isGenerating ? 'Generating...' : 'Generate Content'}
           </Button>
         </div>
-        {publishError && (
-          <Alert className="mt-5" color="failure">
-            {publishError}
-          </Alert>
-        )}
+        
       </form>
     </div>
   );
